@@ -1,51 +1,27 @@
-wat of, import random
+# My First Python Projects - Super App & Bank App
 
-while True:
-    print("\n=== MY SUPER APP ===")
-    print("1. Calculator")
-    print("2. Grade Checker")
-    print("3. Guess Game")
-    print("4. Login Test")
-    print("5. Exit")
-    
-    choice = input("Choose 1-5: ")
-    
-    if choice == "1":
-        a = int(input("First number: "))
-        b = int(input("Second number: "))
-        print(f"{a} + {b} = {a+b}")
-        print(f"{a} * {b} = {a*b}")
-    
-    elif choice == "2":
-        score = int(input("Enter score: "))
-        if score >= 80:
-            print("A - Excellent!")
-        elif score >= 60:
-            print("B - Good!")
-        elif score >= 50:
-            print("C - Pass!")
-        else:
-            print("F - Fail!")
-    
-    elif choice == "3":
-        secret = random.randint(1, 20)
-        guess = int(input("Guess 1-20: "))
-        if guess == secret:
-            print(f"YES! It was {secret}")
-        else:
-            print(f"Nope, it was {secret}")
-    
-    elif choice == "4":
-        u = input("Username: ")
-        p = input("Password: ")
-        if u == "admin" and p == "1234":
-            print("Welcome admin!")
-        else:
-            print("Access denied!")
-    
-    elif choice == "5":
-        print("Bye! Super App closed.")
-        break
-    
-    else:
-        print("Invalid choice!")
+GCTU MSc Computer Science - My first Python portfolio.
+
+## Projects
+### 1. Super App - super_app.py
+4-in-1 console application:
+- Calculator (Add & Multiply)
+- Grade Checker (A/B/C/F system)
+- Guess Game (Random 1-20 with random module)
+- Login Test (Simple authentication)
+
+### 2. Bank App - bank_appy.py
+ATM / Mobile Money simulation:
+- Deposit, Withdraw, Check Balance
+- Error handling & balance protection
+- While loop for continuous transactions
+
+## About Me
+GCTU MSc Computer Science Student
+Python Beginner | Building my GitHub portfolio
+
+## How to Run
+python super_app.py
+python bank_appy.py
+
+Built during MSc prep!

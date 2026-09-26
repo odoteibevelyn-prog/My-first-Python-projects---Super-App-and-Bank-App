@@ -1,0 +1,5 @@
+print("=== SUPER APP ===")
+name = input("What is your name? ")
+print(f"Hello {name}! Welcome to my app")
+age = input("How old are you? ")
+print(f"Nice! You are {age} years old")
